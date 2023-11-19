@@ -1,0 +1,223 @@
+.body-main {
+    background-color: #fff!important;
+    font-size: .8em;
+    color: #333;
+    background-image: url("https://scpfoundation.net/-/static/images/scp-bg.png");
+    background-repeat: repeat-x;
+}
+header{
+    height: 165px;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 22px;
+    background: url("https://scpfoundation.net/-/static/images/scp-logo.png") 10px 40px no-repeat;
+
+}
+
+header h1{
+    margin-left: 120px;
+    padding: 0;
+    float: left;
+    max-height: 95px;
+    font-size: large;
+}
+.upper-main-body{
+    text-align: center;
+    color: #600;
+    line-height: 1.075;
+    font-size: 0.975em;
+    line-height: 1.6;
+}
+
+header h1 a {
+    display: block;
+    margin: 0;
+    padding: 80px 0 25px;
+    line-height: 0px;
+    max-height: 0;
+    color: #eee;
+    background: transparent;
+    font-family: BauhausLTDemi, 'Nanum Gothic', Arial, sans-serif;
+    font-size: 180%;
+    text-decoration: none;
+    text-shadow: 3px 3px 5px #000;
+    letter-spacing: 9px;
+}
+#authorization{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 32px 0;
+}
+#registration{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 32px 0;
+}
+.login{
+    border: 3px solid white;
+
+    box-shadow: 0 0 0 1px #aaa inset, 2px 2px 8px #0000007f;
+    background: #eee;
+    border-radius: 10px;
+}
+.head{
+    background: repeating-linear-gradient(45deg,rgba(255,255,255,.062745098),transparent 4px),linear-gradient(to bottom,#888888,#2c2c2c);
+    box-shadow: 0 -1px 3px #0000007f inset;
+    color: #fff;
+    padding: 16px;
+    overflow: hidden;
+}
+.head h1{
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px black;
+}
+#authorization .content {
+    padding: 16px;
+}
+#registration .content {
+    padding: 16px;
+}
+
+#authorization #authorization-form {
+    max-width: 300px;
+}
+#registration  #registration-form {
+    max-width: 300px;
+}
+div {
+    display: block;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+#authorization #authorization-form .text-input{
+    position: relative;
+    margin-top: 8px;
+}
+#registration #registration-form .text-input {
+    position: relative;  left:12.5%;
+    margin-top: 8px;
+}
+
+#authorization .content button, #authorization .content input[type=submit],#registration .content button, #registration .content input[type=submit] {
+    margin-top: 16px;
+    background: #263636;
+    border: 0;
+    border-radius: 3px;
+    padding: 8px 16px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+#to_registration a {
+    display: block;
+    margin: 0;
+    padding: 10px 0 15px;
+    line-height: 0px;
+    max-height: 0;
+    color: #eee;
+    background: transparent;
+    font-family: BauhausLTDemi, 'Nanum Gothic', Arial, sans-serif;
+    font-size: 180%;
+    text-decoration: none;
+    text-shadow: 3px 3px 5px #000;
+    letter-spacing: 9px;
+}
+
+h1, #page-title {
+    color: #901;
+    padding: 0 0 .25em;
+    margin: 0 0 .6em;
+    font-weight: normal;
+}
+#main-content {
+    max-width: 90%;
+    margin: 0 5%;
+    padding: 0;
+    -webkit-transition: .5s ease-in-out .1s;
+    -moz-transition: .5s ease-in-out .1s;
+    -ms-transition: .5s ease-in-out .1s;
+    -o-transition: .5s ease-in-out .1s;
+    transition: .5s ease-in-out .1s;
+}
+#page-title {
+    margin: 0 0 0.5em 0;
+    padding-top: 0.5em;
+    font-size: 200%;
+    border-bottom: 1px solid #666;
+}
+.scp-image-block{
+    border: solid 1px #666;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .25);
+    float: right;
+    clear: right;
+    margin: 0 2em 1em 2em;
+}
+p,#page-content a {
+    line-height: 145%;
+    font-size: 30px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#page-content a{
+    color: #b01;
+    text-decoration: none;
+    background: transparent
+}
+#error-block{
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    background-color: #fff0f0;
+    color: #a4a4a4;
+}
+#error-container{
+    padding: 16px;
+    padding-top: 48px;
+
+}
+blockquote {
+    border: 1px dashed #999;
+    padding: 0 1em;
+    background-color: #f4f4f4;
+}
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+.grid {
+    display: grid;
+    grid-template-rows: 1fr 10px 1fr 10px 1fr;
+}
+
+.gutter-row {
+    grid-column: 1/-1;
+    cursor: row-resize;
+}
+
+.gutter-row-1 {
+    grid-row: 2;
+}
+
+.gutter-row-3 {
+    grid-row: 4;
+}

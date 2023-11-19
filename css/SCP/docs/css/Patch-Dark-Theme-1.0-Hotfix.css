@@ -1,0 +1,25 @@
+:root {
+    --ct_brd_table: 1px solid #666;
+    --ct_col_table-head: #333;
+}
+.hovertip {
+    background-color:#333 !important;
+}
+.code .hl-identifier,
+.code .hl-code,
+.code .hl-brackets {
+    color: #fff;
+}
+.code .hl-reserved {
+    color: #88f;
+}
+.code .hl-number {
+    color: #f44;
+}
+.code .hl-string {
+    color: #28f;
+}
+.code .hl-var {
+    color: #6a6;
+}
+
